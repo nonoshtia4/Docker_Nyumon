@@ -4,7 +4,3 @@ services:
     container_name: apache01
     ports:
       - "8080:80"
-networks:
-  netweb01:
-volumes:
-  volweb01:
