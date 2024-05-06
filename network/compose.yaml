@@ -1,0 +1,9 @@
+services:
+  apache:
+    image: httpd
+    networks:
+      - netweb01
+    ports:
+      - "8081:80"
+networks:
+  netweb01:
